@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Fonts -------------------------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Montserrat:wght@900&family=Montserrat&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS ------------------------------------------------------>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -------------------------------------------------------------- -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/da7d263600.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Paint Parties</title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container" id="mobile-nav">
+          <a
+            id="parties-logo"
+            class="navbar-brand navbar-brand-logo"
+            href="index.html"
+            ><img src="images/logo.jpg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler parties-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-palette"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paintParties.html">Paint Parties</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paintNight.html">Paint Night</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paintKits.html">Paint Kits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paintTools.html">Paint Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Photo Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <hr class="title-hr" />
+    <div class="title">
+      <h2>We Offer Private Paint Parties</h2>
+    </div>
+    <hr class="title-hr" />
+
+    <div class="container">
+      <div id="mobile-btns" class="row">
+        <button id="parties-btn-1" class="btn btn-light btn-lg">
+          <a href="#kids-parties">Kids Parties</a>
+        </button>
+        <hr id="mobile-hr-1" class="mobile-hr" />
+        <button id="parties-btn-2" class="btn btn-light btn-lg">
+          <a href="#special-occasions">Special Occasions</a>
+        </button>
+        <hr id="mobile-hr-2" class="mobile-hr" />
+        <button id="parties-btn-3" class="btn btn-light btn-lg">
+          <a href="#corporate-events">Corporate Events</a>
+        </button>
+        <hr id="mobile-hr-3" class="mobile-hr" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div
+          id="kids-parties"
+          class="paintPartySection col-lg-4 col-md-12 container-fluid"
+        >
+          <img src="images/kids-painting.jpg " alt="" />
+
+          <h3>Kids Parties</h3>
+          <p>
+            We provide children's paint parties where kids can express their
+            creativity. Including birthdays or social events, march break
+            activities, workshops, and more.
+          </p>
+          <ul class="parties-list">
+            <li>
+              We can come to your home / venue or we can host your party in our
+              studio
+            </li>
+            <li>
+              We are a mobile business and can bring tables and chairs with us
+              when we travel to your location
+            </li>
+            <li>
+              We provide all of the tools including paints, paint brushes,
+              canvasses, aprons, easels, etc.
+            </li>
+            <li>
+              The duration is a total of 3 hours, which includes 1 hour for
+              setup and cleanup and 2 hours of painting
+            </li>
+            <li>
+              Our fees are per person, for children's party rates please call or
+              e-mail us and we provide you with our promotional rate of the day
+            </li>
+          </ul>
+          
+        </div>
+        <div
+          id="special-occasions"
+          class="paintPartySection col-lg-4 col-md-12 container-fluid"
+        >
+          <img src="images/specialEvent.jpg" alt="" />
+          <h3>Special occasions</h3>
+          <p>
+            Book us for your future private party including bachelorette party,
+            sip and paint with friends, tea party, birthdays, bridal showers and
+            more.
+          </p>
+          <ul class="parties-list">
+            <li>
+              We can come to your home / venue or we can host your party in our
+              studio
+            </li>
+            <li>
+              We are a mobile business and can bring tables and chairs with us
+              when we travel to your location
+            </li>
+            <li>
+              We provide all of the tools including paints, paint brushes,
+              canvasses, aprons, easels, etc.
+            </li>
+          </ul>
+          
+        </div>
+        <div
+          id="corporate-events"
+          class="paintPartySection col-lg-4 col-md-12 container-fluid"
+        >
+          <img src="images/paintParty.jpg" alt="" />
+          <h3>Corporate events</h3>
+          <p>
+            Book your next team building activity with us and bond with your
+            coworkers!
+          </p>
+          <ul class="parties-list">
+            <li>
+              We can come to your work venue or we can host your party in our
+              studio
+            </li>
+            <li>
+              We are a mobile business and can bring tables and chairs with us
+              when we travel to your location
+            </li>
+            <li>
+              We provide all of the tools including paints, paint brushes,
+              canvasses, aprons, easels, etc.
+            </li>
+            <li>
+              The duration is a total of 3 hours, which includes 1 hour for
+              setup and cleanup and 2 hours of painting
+            </li>
+            <li>
+              Our fees are per person, for party rates please call or e-mail us
+              and we provide you with our promotional rate of the day
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header parties-modal-header">
+            <h3 class="modal-title parties-modal-title" id="exampleModalLabel">
+              Contact us!
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div id="success" class="hidden">
+              <h1>Message sent!!</h1>
+              <p>Thank you for contacting us. We'll get back to you shortly!</p>
+            </div>
+            <form class="contact-form" id="booking-form">
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input
+                      id="FName"
+                      type="text"
+                      class="form-control"
+                      required
+                      placeholder="First name"
+                      maxlength="20"
+                      aria-label="First name"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input
+                      id="LName"
+                      type="text"
+                      class="form-control"
+                      required
+                      placeholder="Last name"
+                      maxlength="20"
+                      aria-label="Last name"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+
+                <input
+                  id="email"
+                  type="email"
+                  class="form-control"
+                  required
+                  placeholder="Email address"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3 justify-content-start">
+                <label for="date" class="form-label">Prefered Date</label>
+                <input
+                  id="date"
+                  type="date"
+                  name="date"
+                  required
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+
+              <div class="d-grid gap-2">
+                <button
+                  type="submit"
+                  value="Send Message"
+                  class="btn parties-submit-btn submit"
+                >
+                  submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-top">
+          <div class="container">
+              <div class="row">
+                 
+                  <div class="col-md-4 col-lg-4" id="footer-hours">
+                      <h3>Hours</h3>
+                      <p>Weekdays 9am - 8pm <br>
+                      Weekends 9am - 9pm</p>
+                  </div>
+                  <div class="col-md-4 col-lg-4" id="footer-contact">
+                      <h3>Contact</h3>
+                      <p><i class="fas fa-map-marker-alt"></i> Toronto ON</p>
+                      <p><i class="fas fa-phone"></i> Phone: (647) 390-9659</p>
+                      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Paint.Paradise.Art@gmail.com">Paint.Paradise.Art@gmail.com</a></p>
+                  </div>
+                  <div class="col-md-4 col-lg-4" id="footer-social">
+                      <h3>Follow us</h3>
+                      <p>
+                          <a href="https://www.facebook.com/PaintParadiseArtStudio"><i class="fab fa-facebook"></i></a>                                                        
+                          <a href="https://www.instagram.com/paintparadise_/?hl=en"><i class="fab fa-instagram"></i></a> 
+                          <a href="https://www.tiktok.com/@paintparadisetoronto?lang=en"><i class="fab fa-tiktok"></i></a>
+                      </p>
+                      <p><a href="#">Back to top</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+  </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

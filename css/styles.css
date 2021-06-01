@@ -1,0 +1,974 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Navbar--------------------------------------------------------------- */
+
+#home-brand {
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: black;
+}
+
+.nav-link:hover {
+  color: rgb(127, 221, 250);
+}
+
+.navbar-toggler i {
+  font-size: 2rem;
+}
+
+.home-toggler {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.home-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+/* Back to top button ------------------------------ */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(162, 200, 218); /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 7px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 2rem; /* Increase font size */
+  opacity: 0.7;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#myBtn:focus {
+  background-color: none;
+}
+
+/* Alert Message ---------------------------------- */
+
+#alert {
+  width: 100%;
+  border: 3px solid red;
+  border-radius: 20px;
+  margin: 17px auto 25px;
+  padding: 1rem 0;
+  background-color: white;
+}
+
+#alert i {
+  font-size: 3rem;
+  color: red;
+}
+
+#alert h4 {
+  color: black;
+  /* display: inline; */
+}
+
+/* top section -------------------------------------------------------- */
+
+#top {
+  text-align: center;
+}
+
+#logo img {
+  height: 55vw;
+  width: 100%;
+}
+
+#title {
+  background-image: url(../images/art\ studio.jpg);
+  height: fit-content;
+  background-size: cover;
+
+  margin: auto;
+  width: 100%;
+}
+
+#titleRow h1 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  padding-top: 1.5rem;
+  font-size: 2rem;
+}
+
+#header {
+  margin: 5rem 0;
+  background-color: rgba(224, 222, 222, 0.6);
+  /* opacity: 0; */
+  position: relative;
+}
+
+#bookButton {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.home-modal-header {
+  background-color: cadetblue;
+}
+
+.home-submit-btn {
+  background-color: cadetblue;
+  color: white;
+}
+
+.home-modal-title {
+  color: white;
+  font-weight: bold;
+}
+
+.btn-close {
+  color: white;
+}
+
+#booking-form label {
+  float: left;
+}
+
+/* Services Section ------------------------------------------------- */
+
+#services {
+  margin: 5rem 0 2rem;
+  text-align: center;
+}
+
+#services p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#services h3 {
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  padding-top: 10%;
+  font-weight: 600;
+}
+
+#services-hr {
+  width: 60%;
+  margin: auto;
+  height: 2px;
+}
+
+#services-text {
+  text-align: center;
+}
+
+#service-img {
+  overflow: hidden;
+  height: 60vw;
+  width: 100%;
+  margin: 5% auto 0;
+}
+
+#service-img img {
+  width: 100%;
+}
+
+#service-div {
+  margin-top: 10%;
+}
+
+.btn-outline-info a {
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+}
+
+/* Testimonials Section ----------------------------------------------------- */
+
+#testimonials {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: aquamarine;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.test-img {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item h3 {
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.carousel-inner {
+  padding: 4rem;
+}
+
+.next-icon {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.previous-icon {
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* footer ---------------------------------------------------------------- */
+
+footer {
+  background-color: rgb(65, 65, 65);
+  padding-top: 2rem;
+  color: rgb(167, 167, 167);
+}
+
+#logo-footer {
+  font-family: "Permanent Marker", "cursive";
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+#footer-top {
+  text-align: center;
+}
+
+#footer-social i {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+/* About Page ------------------------------------------------------ */
+
+#whole {
+  background-image: linear-gradient(rgb(20, 132, 167), white);
+  padding-bottom: 2rem;
+}
+
+#about-top img {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand-logo img {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+.about-nav {
+  background: none;
+  padding-bottom: 1rem;
+}
+
+#about-toggler {
+  color: white;
+  border: 2px solid white;
+}
+
+#about-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.about-nav-list .nav-link {
+  color: white;
+  /* border-right: 2px solid white; */
+}
+
+.about-hr-top {
+  border: solid 1px white;
+  opacity: 1;
+  width: 90%;
+  margin: 0 auto 2rem;
+}
+
+.our-story {
+  text-align: center;
+}
+
+#about-link {
+  color: white;
+}
+
+.our-story h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.our-story p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.p-2 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+#about-hr {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.instagram-link {
+  text-align: center;
+}
+
+.instagram-link h5 {
+  font-weight: bold;
+}
+
+.instagram-link a {
+  /* text-decoration: none; */
+  color: black;
+}
+
+.insta img {
+  width: 100%;
+  border: 2px solid black;
+}
+
+#insta-pix {
+  padding: 2%;
+}
+
+/* Paint Parties Page ---------------------------------------------------- */
+.parties-toggler {
+  border: 2px solid black;
+}
+
+.parties-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#mobile-btns button a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 3px rgba(100, 0, 100, 0.4);
+}
+
+#parties-btn-1 {
+  margin: 1rem 0 0;
+  padding-bottom: 0;
+  position: relative;
+  left: 70px;
+  background: none;
+  border: none;
+  opacity: 0;
+}
+
+#parties-btn-2 {
+  margin: 1rem 0 0;
+  padding-bottom: 0;
+  position: relative;
+  right: 70px;
+  background: none;
+  border: none;
+  opacity: 0;
+}
+
+#parties-btn-3 {
+  margin: 1rem 0 0;
+  padding-bottom: 0;
+  position: relative;
+  left: 70px;
+  background: none;
+  border: none;
+  opacity: 0;
+}
+
+#mobile-hr-1 {
+  width: 200px;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  border: 2px solid purple;
+  opacity: 0;
+}
+#mobile-hr-2 {
+  width: 200px;
+  margin: auto;
+  position: relative;
+  right: 70px;
+  border: 2px solid purple;
+  opacity: 0;
+}
+#mobile-hr-3 {
+  width: 200px;
+  margin: 0 auto 3rem;
+  position: relative;
+  left: 70px;
+  border: 2px solid purple;
+  opacity: 0;
+}
+
+.title {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.title-hr {
+  width: 80%;
+  border: 2px solid purple;
+  margin: 1rem auto;
+}
+
+.paintPartySection img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 2rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.paintPartySection h3 {
+  margin: 1rem auto;
+  background-image: linear-gradient(
+    to right,
+    rgba(100, 0, 100, 0.7),
+    rgba(100, 0, 100, 0.2)
+  );
+  padding: 1rem;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+
+.parties-list li {
+  padding: 0.5rem;
+  line-height: 1.5;
+}
+
+.btn-div {
+  text-align: center;
+  margin: 5rem;
+}
+
+.btn-div button {
+  background-color: rgba(100, 0, 100, 0.6);
+  font-weight: 700;
+  color: white;
+}
+
+.parties-modal-header {
+  background-color: rgba(100, 0, 100, 0.6);
+}
+
+.parties-submit-btn {
+  background-color: rgba(100, 0, 100, 0.6);
+  color: white;
+}
+
+.parties-modal-title {
+  color: white;
+}
+
+/* Paint Night Page ---------------------------------------------- */
+
+.paint-night-toggler {
+  border: 2px solid black;
+}
+
+.paint-night-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.hr-black {
+  border: 1px solid black;
+  opacity: 1;
+  margin-top: 0;
+}
+
+#paint-night-title {
+  height: 250px;
+  background-image: url("../images/paint-night.jpg");
+  background-size: cover;
+}
+
+#paint-night-header {
+  background-image: linear-gradient(rgba(100, 0, 100, 0.8), white);
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+  margin: 2rem auto;
+}
+
+#paint-night-header h2 {
+  font-weight: bolder;
+  margin: 0;
+}
+
+#paint-night-p p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+/* Paint Kits Page --------------------------------------- */
+
+.kits-toggler {
+  border: 2px solid black;
+}
+
+.kits-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#kits-div img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.accordion {
+  padding: 0;
+  margin: 0.5rem 0 1rem;
+}
+
+.accordion-header button {
+  background-image: linear-gradient(to right, rgba(100, 0, 100, 0.6), white);
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.accordion-header button:active {
+  background-color: black;
+}
+
+.accordion-header button:focus {
+  background-color: rgb(192, 163, 211);
+  color: white;
+  border: none;
+}
+
+.kit-card a {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.kit-card .card-body {
+  text-align: center;
+}
+
+.kit-card h5 {
+  font-weight: bold;
+}
+
+.kit-card {
+  border-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 1rem auto;
+  width: 250px;
+}
+
+.kit-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.portrait-img {
+  border-radius: 0;
+  height: 300px;
+  object-fit: cover;
+}
+
+.landscape-img {
+  border-radius: 0;
+  /* height: 200px; */
+  object-fit: cover;
+}
+
+#kit-title {
+  margin: 2rem;
+  font-family: "Permanent Marker", "cursive";
+  text-align: center;
+  color: rgb(75, 54, 100);
+}
+
+#kit-image-div img {
+  width: 100%;
+  border: 2px solid black;
+}
+
+#kit-image-div {
+  width: 40%;
+  height: 40%;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+#kitsModal .modal-content {
+  background: none;
+  border: none;
+}
+
+#kitsModal .modal-body {
+  padding-top: 0;
+}
+
+#kitsModal .modal-header {
+  border: none;
+  padding-bottom: 0;
+  height: 60px;
+}
+
+#kitsModal .modal-header button {
+  background: none;
+  border: none;
+  font-size: 4rem;
+  color: white;
+  opacity: 1;
+}
+
+#kitsModal .modal-header button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.big-image {
+  width: 100%;
+}
+
+/* Paint tools page --------------------------------------------------*/
+
+#tools-container {
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+#tools-img {
+  width: 100%;
+}
+
+#tools-title {
+  align-items: center;
+  padding: 15px 0 10px 7%;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(100, 0, 100, 0.8),
+    rgba(100, 0, 100, 0.1)
+  );
+}
+
+#tools-title h1 {
+  font-weight: bolder;
+  color: white;
+}
+
+#tools-bottom h1 {
+  font-family: "Permanent Marker", "cursive";
+}
+
+#tools-bottom {
+  margin: 2rem auto 4rem;
+}
+
+/* Photo Gallery -------------------------------------------------- */
+
+.gallery-body {
+  background-color: rgb(44, 44, 44);
+}
+
+.gallery-navbar {
+  background-color: rgb(44, 44, 44);
+}
+
+.gallery-navbar .navbar-toggler {
+  color: white;
+  border: 2px solid white;
+}
+
+.gallery-navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.gallery-navbar .nav-link {
+  color: white;
+}
+
+#gallery-hr {
+  margin: auto;
+  border: 1px solid white;
+  opacity: 1;
+}
+
+#gallery-div img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+#gallery-div div {
+  width: fit-content;
+  padding: 10px;
+}
+
+/* #imageModal {
+  max-height: 100%;
+} */
+
+#imageModal button {
+  background: none;
+  border: none;
+}
+
+#imageModal button span {
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  top: 5px;
+}
+
+#imageModal button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#gallery-modal-dialog .modal-header {
+  padding: 0;
+  height: 50px;
+}
+
+#gallery-modal-dialog .modal-content {
+  background: none;
+  border: none;
+}
+
+#gallery-carousel .carousel-inner {
+  padding: 0;
+}
+
+/* #gallery-carousel img {
+  height: 400px;
+  width: 200px;
+  object-fit: cover;
+} */
+
+#gallery-carousel .carousel-control-prev,
+#gallery-carousel .carousel-control-next {
+  font-size: 2em;
+  top: auto;
+  opacity: 1;
+  bottom: -52px;
+}
+
+/* Media Queries ---------------------------------------------- */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  #service-img {
+    height: 50vw;
+    width: 90%;
+  }
+
+  .test-img {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  #logo img {
+    height: 30vw;
+    object-fit: cover;
+  }
+
+  #about-top {
+    width: 90%;
+    margin: auto;
+  }
+
+  #about-top img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .navbar-brand-logo img {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  .paintPartySection img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* #gallery-carousel img {
+    height: 550px;
+    width: 400px;
+  } */
+
+  #kits-div img {
+    height: 350px;
+  }
+  #paint-night-title {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #logo img {
+    height: 500px;
+    object-fit: cover;
+  }
+  #service-img {
+    height: 20vw;
+    width: 90%;
+  }
+
+  #about-top img {
+    object-fit: cover;
+  }
+
+  #about-top {
+    width: 90%;
+    margin: auto;
+  }
+
+  #service-img img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .portrait-img {
+    border-radius: 0;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .landscape-img {
+    border-radius: 0;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .kit-card {
+    width: 200px;
+  }
+
+  #paint-night-title {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test-img {
+    width: 7vw;
+    height: 7vw;
+  }
+
+  #about-top img {
+    height: 400px;
+  }
+
+  #about-top {
+    width: 90%;
+    margin: auto;
+  }
+
+  .navbar-brand-logo img {
+    height: 5vw;
+    width: 5vw;
+  }
+
+  /* #gallery-carousel img {
+    height: 500px;
+    width: 500px;
+  } */
+
+  #paint-night-header {
+    margin: 3rem auto;
+  }
+
+  #paint-night-title {
+    height: 400px;
+  }
+
+  #tools-container {
+    height: 500px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #logo img {
+    height: 500px;
+    object-fit: cover;
+  }
+  #service-img {
+    height: 20vw;
+    width: 90%;
+  }
+  #about-top img {
+    object-fit: cover;
+  }
+
+  #service-img img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #mobile-btns button {
+    display: none;
+  }
+
+  .mobile-hr {
+    display: none;
+  }
+
+  .portrait-img {
+    border-radius: 0;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .landscape-img {
+    border-radius: 0;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .kit-card {
+    width: 300px;
+  }
+}
+
+#construction {
+  width: 100%;
+}

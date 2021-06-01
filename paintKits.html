@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Fonts -------------------------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Montserrat:wght@900&family=Montserrat&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS ---------------------------------------------------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -------------------------------------------------------------- -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/da7d263600.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+
+    <title>Paint Paradise</title>
+  </head>
+  <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid" id="mobile-nav">
+        <a class="navbar-brand navbar-brand-logo" href="index.html"
+        ><img src="images/logo.jpg" alt=""
+        /></a>
+        <button
+        class="navbar-toggler kits-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <i class="fas fa-palette"></i>
+      </button>
+      <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNav"
+      >
+      <ul class="navbar-nav about-nav-link">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>                
+          <li class="nav-item">
+            <a class="nav-link" href="paintParties.html">Paint Parties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paintNight.html">Paint Night</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paintKits.html">Paint Kits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paintTools.html">Paint Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Photo Gallery</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr class="hr-black">
+  </div>
+    <div class="container">
+      <div class="row">
+        <div id="kits-div" class="col-md-6 container">
+          <img src="images/regular-kits.png" alt="" />
+    
+          <div class="accordion accordion-flush container" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Regular Paint Kits
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> <p>
+                  First, choose your painting design from the different patterns. (see patterns below)<br />
+                  Our paint kits come with:
+                </p>
+                <ul>
+                  <li>Step-by-Step painting instructions for your chosen design</li>
+                  <li>2 flat canvases, 7" X 9"</li>
+                  <li>Paints appropriate for your design</li>
+                  <li>Set of 5 paint brushes of different sizes</li>
+            <li>Water cup for the brushes</li>
+            <li>Plastic table protector</li>
+            <li>2 Styrofoam plates for mixing paint</li>
+            <li>Paper napkins</li>
+          </ul></div>
+        </div>
+      </div>
+    </div>
+</div>
+<div id="kits-div" class="col-md-6 container">
+  <img src="images/kids-kits.png" alt="" />
+    
+  <div class="accordion accordion-flush container" id="accordionFlush2">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Kids Paint Kits
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush2">
+        <div class="accordion-body"> <p>
+          Our Kids paint kits come with:
+        </p>
+        <ul>
+          <li>Pre-drawn canvases, ready to be coloured in </li>
+          <li>Paints (assorted colours)</li>
+          <li>Set of 5 paint brushes of different sizes</li>
+            <li>Water cup for the brushes</li>
+            <li>Plastic table protector</li>
+            <li>Styrofoam plates for mixing paint</li>
+            <li>Wooded or clay sculpture, ready to be painted</li>
+            <li>Age appropriate stickers</li>
+            <li>Paper napkins</li>
+          </ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div id="kit-title">
+  <h1>Choose your master piece!</h1>
+</div>
+
+<div class="container">
+  <div class="row" >
+    <div class="col-md-4 kit-div" >
+      <div class="card kit-card">
+        <img src="images/Paint-kits/flamingoes.jpg" class="card-img-top landscape-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Flamingos</h5>
+          <a href="https://www.etsy.com/ca/listing/939263887/paint-kit?ref=shop_home_active_1&crt=1&variation0=1790934912" class="btn btn-lg btn-outline-info">Get</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4 kit-div">
+      <div class="card kit-card">
+        <img src="images/Paint-kits/colourful-cacti.jpg" class="card-img-top landscape-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Colourful Cacti</h5>
+          <a href="https://www.etsy.com/ca/listing/939263887/paint-kit?ref=shop_home_active_1&crt=1&variation0=1748202925" class="btn btn-lg btn-outline-info">Get</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 kit-div">
+      <div class="card kit-card">
+        <img src="images/Paint-kits/valentine-birds.jpg" class="card-img-top landscape-img" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Valentine Birds</h5>
+          <a href="https://www.etsy.com/ca/listing/939263887/paint-kit?ref=shop_home_active_1&crt=1&variation0=1790936454" class="btn btn-lg btn-outline-info">Get</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 kit-div">
+      <div class="card kit-card">
+        <img src="images/Paint-kits/cheers.jpg" class="card-img-top portrait-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cheers!</h5>
+          <a href="https://www.etsy.com/ca/listing/939263887/paint-kit?ref=shop_home_active_1&crt=1&variation0=1790999644" class="btn btn-lg btn-outline-info">Get</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 kit-div">
+      <div class="card kit-card">
+        <img src="images/Paint-kits/aurora-borealis.jpg" class="card-img-top portrait-img" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Aurora Borealis</h5>
+          <a href="https://www.etsy.com/ca/listing/939263887/paint-kit?ref=shop_home_active_1&crt=1&variation0=1748202929" class="btn btn-lg btn-outline-info">Get</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 kit-div">
+      <div class="card kit-card">
+        <img src="images/Paint-kits/beach-swing.jpg" class="card-img-top portrait-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Beach Swing</h5>
+          <a href="https://www.etsy.com/ca/listing/939263887/paint-kit?ref=shop_home_active_1&crt=1&variation0=1731820678" class="btn btn-lg btn-outline-info">Get</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="kit-title">
+  <h1>It's a paint party in a box!</h1>
+</div>
+
+<div id="kit-images" class="container">
+  <div class="row justify-content-center">
+    <div id="kit-image-div" class="col-md-3 col-sm-3">
+      <img class="kit-image" src="images/kit-image1.png" alt="" data-bs-toggle="modal" data-bs-target="#kitsModal"/>
+    </div>
+    <div id="kit-image-div" class="col-md-3 col-sm-3">
+      <img class="kit-image" src="images/kit-image2.png" alt="" data-bs-toggle="modal" data-bs-target="#kitsModal"/>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="kitsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header justify-content-end">
+        <button data-bs-dismiss="modal">&times;</button>
+
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        <img class="big-image" src="" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
+             
+              <div class="col-md-4 col-lg-4" id="footer-hours">
+                  <h3>Hours</h3>
+                  <p>Weekdays 9am - 8pm <br>
+                  Weekends 9am - 9pm</p>
+              </div>
+              <div class="col-md-4 col-lg-4" id="footer-contact">
+                  <h3>Contact</h3>
+                  <p><i class="fas fa-map-marker-alt"></i> Toronto ON</p>
+                  <p><i class="fas fa-phone"></i> Phone: (647) 390-9659</p>
+                  <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Paint.Paradise.Art@gmail.com">Paint.Paradise.Art@gmail.com</a></p>
+              </div>
+              <div class="col-md-4 col-lg-4" id="footer-social">
+                  <h3>Follow us</h3>
+                  <p>
+                      <a href="https://www.facebook.com/PaintParadiseArtStudio"><i class="fab fa-facebook"></i></a>                                                        
+                      <a href="https://www.instagram.com/paintparadise_/?hl=en"><i class="fab fa-instagram"></i></a> 
+                      <a href="https://www.tiktok.com/@paintparadisetoronto?lang=en"><i class="fab fa-tiktok"></i></a>
+                  </p>
+                  <p><a href="#">Back to top</a></p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+</footer>
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
