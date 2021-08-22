@@ -90,7 +90,7 @@ body {
 #titleRow h1 {
   font-family: "Montserrat";
   font-weight: bolder;
-  padding-top: 1.5rem;
+  padding: 1.5rem;
   font-size: 2rem;
 }
 
@@ -243,6 +243,13 @@ footer {
 #footer-social i {
   padding: 10px;
   font-size: 2rem;
+}
+#footer-social p a {
+  color: rgb(167, 167, 167);
+}
+
+#footer-contact a {
+  color: rgb(167, 167, 167);
 }
 
 /* About Page ------------------------------------------------------ */
